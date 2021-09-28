@@ -10,3 +10,16 @@ yards?
 3. How well can we predict the yardage from a running play?
 4. Which data features influence the yardage predictions the most?
 
+# Setup
+
+This setup assumes Python 3 is installed and that you are using MacOS.
+
+Activate virtual environment:  
+`source ./nfl-venv/bin/activate`
+
+The `requirements.txt` lists the dependencies for this project.
+
+# TODOs
+[ ] Reload `requirements.txt`  
+[ ] Run linter check: `pycodestyle`  
+[ ] Run linter check: `pydocstyle`
