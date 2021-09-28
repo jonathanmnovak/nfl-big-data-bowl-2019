@@ -42,7 +42,8 @@ pipeline to the `objects` directory.
 * `models.ipynb`: Using the preprocessed data file, this notebooks builds two 
 models, decision tree and regression, to predict the yardage from a run while
 extracting the most important features from each model. This notebook answers
-questions (3) and (4) above.
+questions (3) and (4) above. The model objects for a decision tree and 
+regression are saved to the `objects` directory.
 
 # Results
 
@@ -54,6 +55,9 @@ yards?
 
 
 # TODOs
+[ ] Complete `exploratory_data_analysis.ipynb`
+[ ] Complete `models.ipynb`
+[ ] Summarize findings
 [ ] Reload `requirements.txt`  
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
