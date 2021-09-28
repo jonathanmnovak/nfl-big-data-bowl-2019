@@ -19,6 +19,13 @@ Activate virtual environment:
 
 The `requirements.txt` lists the dependencies for this project.
 
+# Data
+
+Due to the size of the data, the CSV file won't be stored in the repository. 
+Instead, download the training data from 
+[here](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data), unzip it, 
+and store it in the `data` directory.
+
 # TODOs
 [ ] Reload `requirements.txt`  
 [ ] Run linter check: `pycodestyle`  
