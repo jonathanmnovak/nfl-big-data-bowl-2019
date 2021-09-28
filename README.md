@@ -28,6 +28,30 @@ and store it in the `data` directory.
 
 Information on the data columns can be found in the link above.
 
+# Notebooks
+
+The `notebooks` directory contains Jupyter notebooks which are used to 
+evaluate, preprocess, and model the data.
+
+* `exploratory_data_analysis.ipynb`: Evaluates the data, preprocesses it, 
+and answers questions (1) and (2) above. The notebook also outputs the 
+preprocessed data to the `data` directory but this file is not saved in the 
+repository due to the size.
+
+* `models.ipynb`: Using the preprocessed data file, this notebooks builds two 
+models, decision tree and regression, to predict the yardage from a run while
+extracting the most important features from each model. This notebook answers
+questions (3) and (4) above.
+
+# Results
+
+1. Which teams and players had the most rushing yards?
+2. Which offensive personal and defensive personal led to the most rushing 
+yards?
+3. How well can we predict the yardage from a running play?
+4. Which data features influence the yardage predictions the most?
+
+
 # TODOs
 [ ] Reload `requirements.txt`  
 [ ] Run linter check: `pycodestyle`  
