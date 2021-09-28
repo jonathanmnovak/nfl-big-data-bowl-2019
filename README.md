@@ -59,5 +59,6 @@ yards?
 [ ] Complete `models.ipynb`
 [ ] Summarize findings
 [ ] Reload `requirements.txt`  
+[ ] Reload `nfl-env`
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
