@@ -26,6 +26,8 @@ Instead, download the training data from
 [here](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data), unzip it, 
 and store it in the `data` directory.
 
+Information on the data columns can be found in the link above.
+
 # TODOs
 [ ] Reload `requirements.txt`  
 [ ] Run linter check: `pycodestyle`  
