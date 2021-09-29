@@ -1,7 +1,8 @@
 # nfl-big-data-bowl-2019
 
-The goal of this repository is to evaluate the rushing data from the [2019
-NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview) 
+The goal of this repository is to evaluate the 2017-2019 rushing data from the 
+[2019 NFL 
+Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview) 
 Kaggle competition and answer the following questions:
 
 1. Which teams and players had the most rushing yards?
@@ -55,10 +56,10 @@ yards?
 
 
 # TODOs
-[ ] Complete `exploratory_data_analysis.ipynb`
-[ ] Complete `models.ipynb`
-[ ] Summarize findings
-[ ] Reload `requirements.txt`  
-[ ] Reload `nfl-env`
+[ ] Complete `exploratory_data_analysis.ipynb`  
+[ ] Complete `models.ipynb`  
+[ ] Summarize findings  
+[ ] Reload `requirements.txt`    
+[ ] Reload `nfl-env`  
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
