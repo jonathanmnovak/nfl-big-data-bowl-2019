@@ -1,7 +1,8 @@
 # nfl-big-data-bowl-2019
 
-The goal of this repository is to evaluate the rushing data from the [2019
-NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview) 
+The goal of this repository is to evaluate the 2017-2019 rushing data from the 
+[2019 NFL 
+Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview) 
 Kaggle competition and answer the following questions:
 
 1. Which teams and players had the most rushing yards?
@@ -36,8 +37,7 @@ evaluate, preprocess, and model the data.
 * `exploratory_data_analysis.ipynb`: Evaluates the data, preprocesses it, 
 and answers questions (1) and (2) above. The notebook also outputs the 
 preprocessed data to the `data` directory but this file is not saved in the 
-repository due to the size. The notebook also outputs the preprocessing object
-pipeline to the `objects` directory.
+repository due to the size.
 
 * `models.ipynb`: Using the preprocessed data file, this notebooks builds two 
 models, decision tree and regression, to predict the yardage from a run while
@@ -55,10 +55,10 @@ yards?
 
 
 # TODOs
-[ ] Complete `exploratory_data_analysis.ipynb`
-[ ] Complete `models.ipynb`
-[ ] Summarize findings
-[ ] Reload `requirements.txt`  
-[ ] Reload `nfl-env`
+[ ] Complete `exploratory_data_analysis.ipynb`  
+[ ] Complete `models.ipynb`  
+[ ] Summarize findings  
+[ ] Reload `requirements.txt`    
+[ ] Reload `nfl-env`  
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
