@@ -40,10 +40,10 @@ preprocessed data to the `data` directory but this file is not saved in the
 repository due to the size.
 
 * `models.ipynb`: Using the preprocessed data file, this notebooks builds two 
-models, decision tree and regression, to predict the yardage from a run while
-extracting the most important features from each model. This notebook answers
-questions (3) and (4) above. The model objects for a decision tree and 
-regression are saved to the `objects` directory.
+models, decision tree and random forest, to predict the yardage from a run 
+while extracting the most important features from each model. 
+This notebook answers questions (3) and (4) above. The final model is saved 
+to the `objects` directory as a pickle file.
 
 # Results
 
