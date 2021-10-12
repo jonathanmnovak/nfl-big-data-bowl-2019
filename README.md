@@ -48,9 +48,8 @@ to the `objects` directory as a pickle file.
 # Results
 
 1. Which teams and players had the most rushing yards?
-2. Which offensive personal and defensive personal led to the most rushing 
-yards?
-3. How well can we predict the yardage from a running play?
+2. Which offensive and defensive personnel led to the most rushing yards?
+3. How well can we predict the yardage for a running play?
 4. Which data features influence the yardage predictions the most?
 
 
