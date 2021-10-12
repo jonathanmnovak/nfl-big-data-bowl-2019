@@ -55,8 +55,8 @@ yards?
 
 
 # TODOs
-[ ] Complete `exploratory_data_analysis.ipynb`  
-[ ] Complete `models.ipynb`  
+[X] Complete `exploratory_data_analysis.ipynb`  
+[X] Complete `models.ipynb`  
 [ ] Summarize findings  
 [ ] Reload `requirements.txt`    
 [ ] Reload `nfl-env`  
