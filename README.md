@@ -51,11 +51,4 @@ Summarized results can be found in both notebooks mentioned above and in the
 following [blogpost]().
 
 # TODOs
-[X] Complete `exploratory_data_analysis.ipynb`  
-[X] Complete `models.ipynb`  
-[X] Summarize findings  
-[X] Reload `requirements.txt`    
-[ ] Reload `nfl-env`  
-[ ] Run linter check: `pycodestyle`  
-[ ] Run linter check: `pydocstyle`
 [ ] Add url to blogpost above
