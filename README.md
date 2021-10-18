@@ -47,10 +47,8 @@ to the `objects` directory as a pickle file.
 
 # Results
 
-1. Which teams and players had the most rushing yards?
-2. Which offensive and defensive personnel led to the most rushing yards?
-3. How well can we predict the yardage for a running play?
-4. Which data features influence the yardage predictions the most?
+Summarized results can be found in both notebooks mentioned above and in the
+following [blogpost]()
 
 
 # TODOs
@@ -61,3 +59,4 @@ to the `objects` directory as a pickle file.
 [ ] Reload `nfl-env`  
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
+[ ] Add url to blogpost above
