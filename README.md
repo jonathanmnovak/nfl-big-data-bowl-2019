@@ -48,14 +48,13 @@ to the `objects` directory as a pickle file.
 # Results
 
 Summarized results can be found in both notebooks mentioned above and in the
-following [blogpost]()
-
+following [blogpost]().
 
 # TODOs
 [X] Complete `exploratory_data_analysis.ipynb`  
 [X] Complete `models.ipynb`  
-[ ] Summarize findings  
-[ ] Reload `requirements.txt`    
+[X] Summarize findings  
+[X] Reload `requirements.txt`    
 [ ] Reload `nfl-env`  
 [ ] Run linter check: `pycodestyle`  
 [ ] Run linter check: `pydocstyle`
