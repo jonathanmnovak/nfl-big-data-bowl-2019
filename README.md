@@ -96,8 +96,6 @@ Top most important features from the random forest model:
 * Player weight
 * Temperature
 
-A full summary of the results can be found in both notebooks mentioned above 
-and in the following [blogpost]().
-
-# TODOs
-[ ] Add url to blogpost above
+A full summary of the results can be found in both the notebooks mentioned above 
+and in the following 
+[blogpost](https://medium.com/@jonathan.m.novak/why-replacing-nfl-coaches-with-ai-is-not-so-simple-abbc101daf0c).
