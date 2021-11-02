@@ -47,8 +47,57 @@ to the `objects` directory as a pickle file.
 
 # Results
 
-Summarized results can be found in both notebooks mentioned above and in the
-following [blogpost]().
+### Which teams and players had the most rushing yards?
+The top rushing teams over this span include the following:
+* Los Angeles (LA): 4,875
+* New Orleans (NO): 4,870
+* San Francisco (SF): 4,862
+* Baltimore (BLT): 4,843
+* New England (NE): 4,820
+
+The top rushing players over this span include the following:
+* Ezekiel Elliott: 3,283 
+* Todd Gurley: 3,054 
+* Christian McCaffrey: 2,613
+
+### Which offensive and defensive personnel led to the most rushing yards?
+The **offensive personnel**, with the most total yards, is the "1 RB, 1 TE, 3 WR" 
+formation. However, this occurs because it is the most common and shows up 
+almost twice as much as the next most frequent personnel. Looking at the 
+average yards per format, "1 RB, 0 TE, 4 WR" is the highest with 5.2 yards 
+per play and produces 0.7 yards more than the next highest formation on 
+average. 
+
+The **defensive personnel** with the most yards, is the "4 DL, 2 LB, 5 DB" 
+formation. Again, this occurs because it is the most common. Looking at the 
+average yards per personnel, "1 DL, 4 LB, 6 DB" is the highest with 5.7 yards 
+per play and produces 0.5 yards more than the next highest formation on 
+average. 
+
+### How well can we predict the yardage for a running play?
+Using the explained variance as our performance metric, we can't predict the 
+yardage from a running play well when using tree based models such as 
+decision trees and random forests. 
+
+Here is the explained variance on the validation dataset for each model:  
+* Decision tree with default parameters: -0.984
+* Decision tree with optimized parameters: -0.004
+* Random forest with optimized parameters: 0.019
+
+The random forest model performed the best on the validation set but the 
+explained variance was still very low. When evaluating the model on the test 
+dataset, we see the explained variance is still low at 0.018
+
+### What are the most important features that influence the prediction for a running play?
+Top most important features from the random forest model:
+* Yard line
+* X-coordinate
+* Y-coordinate
+* Player weight
+* Temperature
+
+A full summary of the results can be found in both notebooks mentioned above 
+and in the following [blogpost]().
 
 # TODOs
 [ ] Add url to blogpost above
