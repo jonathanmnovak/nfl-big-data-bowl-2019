@@ -95,6 +95,14 @@ Top most important features from the random forest model:
 * Player weight
 * Temperature
 
+![Feature Importance Graph]()
+
 A full summary of the results can be found in both the notebooks mentioned above 
 and in the following 
 [blogpost](https://medium.com/@jonathan.m.novak/why-replacing-nfl-coaches-with-ai-is-not-so-simple-abbc101daf0c).
+
+# Acknowledgments
+* [NFL Big Data Bowl](https://operations.nfl.com/gameday/analytics/big-data-bowl/)
+* [Kaggle](https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview)
+* [scikit-learn](https://scikit-learn.org/stable/index.html)
+* [pandas](https://pandas.pydata.org/)
