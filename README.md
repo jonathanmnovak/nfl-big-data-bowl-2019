@@ -95,7 +95,7 @@ Top most important features from the random forest model:
 * Player weight
 * Temperature
 
-![Feature Importance Graph]()
+![Feature Importance Graph](https://github.com/jonathanmnovak/nfl-big-data-bowl-2019/blob/main/images/model_feature_importance.png?raw=True)
 
 A full summary of the results can be found in both the notebooks mentioned above 
 and in the following 
